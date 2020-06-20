@@ -14,7 +14,7 @@ function getSongs() {
         //y los pasamos a la función getList
         music = json;
         getList(music);
-        console.log(json);
+        //console.log(json);
     });
 }
 
@@ -33,14 +33,14 @@ function getList(music) {
 }
 //Funcion para reproducir canción
 function playSong(song) {
-    console.log(song);
+    //console.log(song);
     //validamos si el id de la canción actual es mayor o igual
     //a la longitud del arreglo de canciones
     //Si ya pasó el limite significa que no hay más canciones
     //el audio dejará de reproducirse
     var long = music.songs;
     if (song >= long.length) {
-        console.log('No hay más canciones');
+        //console.log('No hay más canciones');
         audio.pause();
         //si no es asi ejecutará el resto del codigo donde
         //buscará la canción e imagen para reproducir
@@ -62,7 +62,7 @@ function playSong(song) {
 //Funcion para seguir a la proxima canción automaticamente
 function nextSong(id) {
     //Aplicar animación a imagen mientras se reproduce una canción
-    console.log(animation);
+    //console.log(animation);
     audio.onplaying = function () {
         animation.classList.add('animate__animated');
         animation.classList.add('animate__infinite');
@@ -88,7 +88,7 @@ function nextSong(id) {
         animation.classList.remove('animate__animated');
         animation.classList.remove('animate__infinite');
         animation.classList.remove('animate__bounce');
-        console.log(id);
+        //console.log(id);
         //Llamamos a la función playSong pero esta vez con el 
         //Id aumentado en uno para que reproduzca la siguiente canción
         playSong(parseInt(id) + 1);
@@ -103,7 +103,7 @@ function shuffle(array) {
 function initPlayer() {
     $('#shuffle').click(function () {
         $('#playlist').empty();
-        console.log(shuffle(music.songs));
+        //console.log(shuffle(music.songs));
         getList(music);
         playSong(0);
 
