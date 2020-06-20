@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MP3 Player Hmtl5</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/estilos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <img id="propphoto" class="" src="assets/img/profile photo av.JPG" alt="Imágen principal" width="300px" height="300px" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 animate__animated animate__bounceInUp">
+                <img id="img-album" src="assets/img/royalty.png" alt="Imágen del álbum" width="300px" height="190px" />
+                <audio id="player" controls=""></audio>
+            </div>
+
+            <div class="col-md-6 content_repro animate__animated animate__bounceInLeft animate__delay-2s">
+                <button class="btn btn-success" id="shuffle">
+                    <i class="fa fa-random"></i>
+                </button>
+                <div class="playtitle animate__animated animate__infinite animate__pulse">Playlist</div>
+                <ul class="list-group" id="playlist"></ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="pie">
+        <p class="paragraph">
+                Sebastian Gallego - FullStack Web Developer
+        </p>  
+    </footer>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/fontawesome/js/all.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+
+</html>

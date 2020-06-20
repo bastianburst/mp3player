@@ -1,0 +1,39 @@
+{
+    "songs": [
+        {
+            "id": 0,
+            "nombre": "Me llevas alto",
+            "artist": "Redimi2",
+            "song": "./assets/music/songs/DJ PV - Me Llevas Más Alto (Lyric Video) ft. Alex Campos, Redimi2.mp3",
+            "image": "./assets/music/imgalb/redimi2.jpg"
+        },
+        {
+            "id": 1,
+            "nombre": "Jovenes Somos",
+            "artist": "Evan Craft",
+            "song": "./assets/music/songs/Evan Craft - Jovenes Somos Artury Pepper   Download.mp3",
+            "image": "./assets/music/imgalb/jovenes_somos.jpg"
+        },
+        {
+            "id": 2,
+            "nombre": "There is nothing like",
+            "artist": "Hillsong",
+            "song": "./assets/music/songs/Hillsong United - there is nothing like.mp3",
+            "image": "./assets/music/imgalb/hillsong.jpg"
+        },
+        {
+            "id": 3,
+            "nombre": "Katana Zero - Meat grinder",
+            "artist": "LudoWic",
+            "song": "./assets/music/songs/Meat Grinder (Slaughterhouse) - Katana ZERO.mp3",
+            "image": "./assets/music/imgalb/KatanaZero.jpg"
+        },
+        {
+            "id": 4,
+            "nombre": "Katana Zero - Full Confession",
+            "artist": "LudoWic",
+            "song": "./assets/music/songs/Full Confession - KatanaZERO.mp3",
+            "image": "./assets/music/imgalb/KatanaZerofc.jpg"
+        }
+    ]
+}

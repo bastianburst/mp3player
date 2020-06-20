@@ -1,0 +1,59 @@
+body{
+    background-image: url(../img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    font-family: sans-serif;
+}
+#propphoto{
+    box-shadow: 5px 5px 10px rgba(78,78,78,1);
+}
+#img-album{
+    box-shadow: 5px 5px 10px rgba(78,78,78,1);
+}
+.container{
+    padding: 2em;
+    margin-bottom: 5em;
+}
+.list-group-item{
+    cursor: pointer;
+    font-weight: bold;
+}
+.list-group-item:hover{
+    background: rgba(232,232,232,0.25);
+    color:white;
+}
+.content_repro{
+    background: rgba(55,108,189,0.94);
+    padding: .1em;
+    border-radius:.2em;
+    box-shadow: 5px 5px 10px rgba(78,78,78,1);
+}
+.playtitle{
+    color:white;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+}
+.row{
+    justify-content: space-between;
+}
+.pie{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph{
+    color:white;
+    font-family: 'Sriracha', cursive;
+    font-size: 15px;
+}
+@media(max-width:500px){
+    body{
+        text-align: center;
+    }
+    .content_repro{
+        margin:1em;
+    }
+}
