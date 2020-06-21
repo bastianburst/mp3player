@@ -103,7 +103,7 @@ function shuffle(array) {
 function initPlayer() {
     $('#shuffle').click(function () {
         $('#playlist').empty();
-        //console.log(shuffle(music.songs));
+        shuffle(music.songs);
         getList(music);
         playSong(0);
 
